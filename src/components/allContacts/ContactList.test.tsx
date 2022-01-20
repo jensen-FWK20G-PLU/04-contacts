@@ -20,7 +20,7 @@ describe('ContactList component', () => {
 		const contactName = 'Bo Bengtsson'
 		const contactPhone = '031-33333333'
 
-		const contact = screen.getByTestId('contact2')
+		const contact = screen.getByTestId('contact349rtk')
 		
 		const nameElement = within(contact).getByText(contactName)
 		expect(nameElement).toBeInTheDocument()
