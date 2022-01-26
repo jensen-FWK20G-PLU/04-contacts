@@ -1,4 +1,4 @@
-import { render, screen, queryByText, within } from '@testing-library/react'
+import { render, screen, /*queryByText,*/ within } from '@testing-library/react'
 import ContactList from './ContactList'
 
 describe('ContactList component', () => {
@@ -29,7 +29,7 @@ describe('ContactList component', () => {
 		expect(phoneElement).toBeInTheDocument()
 	})
 
-	it('renders the correct amount of contacts elements', () => {
+	it('renders the correct amount of contact elements', () => {
 		render( <ContactList /> )
 
 		const items = screen.getAllByRole('listitem')
