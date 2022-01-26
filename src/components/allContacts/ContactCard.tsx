@@ -13,6 +13,9 @@ const ContactCard = ({ contact }: Props) => {
 			{contact.phoneNumbers.map(phone => (
 				<div key={phone}> {phone} </div>
 			))}
+			<div className="star">
+				<div role="button">🖊️</div>
+			</div>
 		</li>
 	)
 }

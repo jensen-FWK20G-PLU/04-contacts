@@ -23,7 +23,7 @@ const data: Contact[] = [
 ]
 
 const ContactList = () => {
-	const [contacts, setContacts] = useState<Contact[]>(data)
+	const [contacts/*, setContacts*/] = useState<Contact[]>(data)
 	
 	return (
 		<ul className="contact-list">
